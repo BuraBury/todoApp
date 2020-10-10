@@ -1,0 +1,38 @@
+label{
+  color: #992009;
+  font-size: 32px;
+  font-style: italic;
+}
+
+button{
+  transition: 3s;
+  background-color: lightgray;
+  padding: 2px 8px;
+  margin-left: 3px;
+  opacity: 80%;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover{
+  transform: scale(1.08);
+  transition: 1.5s;
+  background-color: darkgrey;
+  opacity: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-div {
+  float: left;
+  width: 45%;
+}
+h3{
+  text-align: center;
+}
+
+
+
+
+

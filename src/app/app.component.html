@@ -1,0 +1,14 @@
+<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+  <label>
+    Todo:
+    <input type="text" formControlName="todoName">
+  </label>
+  <button type="submit" [disabled]="!todoForm.valid">Submit</button>
+</form>
+<hr>
+<h3>Todos:</h3>
+<ul>
+  <li *ngFor="let todo of todos">
+    {{ todo }}
+  </li>
+</ul>
