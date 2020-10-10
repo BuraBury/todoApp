@@ -22,15 +22,10 @@ button:hover{
   background-color: darkgrey;
   opacity: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 
-.left-div {
-  float: left;
-  width: 45%;
-}
-h3{
-  text-align: center;
-}
+
 
 
 
